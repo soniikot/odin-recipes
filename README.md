@@ -1,0 +1,1 @@
+It is my first web-site project. The main aim was just to create first few pages and try to add and commit things through git. 
