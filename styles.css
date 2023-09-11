@@ -1,12 +1,22 @@
 body{
     background-color: #FFD289;
-    display: block;
 }
-img{
+img.odin{
+    display:block;
     align:center;
     margin:auto;
-    display: block;
+    width:400px;
+    height:auto;
 }
+
+img.fit{
+    width:90%;
+    object-fit:scale-down;
+    display:block;
+   margin:auto;
+}
+
+
 h1{
     text-align: center;
 }
@@ -15,12 +25,27 @@ p{
     font-size: 20px;
 }
 
-
-div {
-    width: 33%;
-    float: left;
+div{
     text-align: center;
+    height:330px;
     font-size: 30px;
-    font-weight: bolder;
-  }
+    width:90%;
+    margin:auto;
+}
+.gravlax{
+    border: 5px solid black;
+    width:30%;
+    display: inline-block;
+}
+.meatballs{
+    display:inline-block;
+    width:30%;
+    border: 5px solid black;
+    }
+
+    .stew{
+        border: 5px solid black;
+        display: inline-block;
+        width:30%;
+    }
 
